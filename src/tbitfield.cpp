@@ -7,7 +7,7 @@
 
 #include "tbitfield.h"
 
-#define BITS_IN_ONE_MEM sizeof(TELEM) * 8
+#define BITS_IN_ONE_MEM (sizeof(TELEM) * 8)
 
 TBitField::TBitField(int len)
 {
