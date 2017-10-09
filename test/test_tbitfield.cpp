@@ -2,6 +2,7 @@
 
 #include <gtest.h>
 
+
 TEST(TBitField, can_create_bitfield_with_positive_length)
 {
   ASSERT_NO_THROW(TBitField bf(3));
@@ -10,7 +11,7 @@ TEST(TBitField, can_create_bitfield_with_positive_length)
 TEST(TBitField, can_get_length)
 {
   TBitField bf(3);
-
+  
   EXPECT_EQ(3, bf.GetLength());
 }
 
@@ -186,6 +187,7 @@ TEST(TBitField, or_operator_applied_to_bitfields_of_non_equal_size)
   expBf.SetBit(2);
   expBf.SetBit(3);
 
+
   EXPECT_EQ(expBf, bf1 | bf2);
 }
 
@@ -289,6 +291,6 @@ TEST(TBitField, bitfields_with_different_bits_are_not_equal)
 
   bf2.SetBit(1);
   bf2.SetBit(2);
-
+ 
   EXPECT_NE(bf1, bf2);
 }

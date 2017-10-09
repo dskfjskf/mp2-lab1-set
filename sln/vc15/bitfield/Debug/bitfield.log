@@ -1,0 +1,3 @@
+﻿  tbitfield.cpp
+c:\users\user\desktop\mp2-lab1-set-master\src\tbitfield.cpp(158): warning C4018: '<': signed/unsigned mismatch
+  bitfield.vcxproj -> C:\Users\user\Desktop\mp2-lab1-set-master\sln\vc15\Debug\bitfield.lib
